@@ -15,4 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require chartkick
+// Rails5なら下記のrequireでオフラインでも使える。
+// Rails4だとGoogleJSAPIにアクセスしないといけない。
+// Rails4.2以下だと多分どうしようもない。
 //= require Chart.bundle
